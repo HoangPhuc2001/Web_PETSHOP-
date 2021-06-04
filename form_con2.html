@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_GD1</title>
+    <link rel="stylesheet" href="CSS/layout_form.css">
+</head>
+<body>
+<div class="all_header">
+    <div class="header">
+        <img class="logo" src="Images/logo.jpg" alt="logo" width="12%" height="140px">
+        <a class="name_shop">SHOP THÚ CƯNG ONLINE</a>
+        <div class="menu" style="border: 5px solid green;">
+            <ul>
+             <li><a class="txt_menu" href="index.html"> Trang Chủ </a></li>
+             <li><a class="txt_menu" href="form_con1.html"> Thú Cưng </a>
+                 <ul class="sub-menu">
+                     <li><a href="form_con1.html">Chó</a></li>
+                     <li><a href="form_con2.html">Mèo</a></li>
+                     <li><a href="form_con3.html">Hamster</a></li>
+                     <li><a href="form_con4.html">Thằng Lằn</a></li>
+                 </ul></li>
+             <li><a class="txt_menu" href="#"> Dịch Vụ </a>
+                 <ul class="sub-menu">
+                     <li><a href="form_con5.html">Spa Thú Cưng</a></li>
+                     <li><a href="form_con6.html">Khu Vui Chơi</a></li>
+                 </ul></li></li>
+             <li><a class="txt_menu" href="#"> Phụ Kiện </a></li>
+             <li><a class="txt_menu" href="#"> Giới Thiệu </a></li>
+             <li><a class="txt_menu" href="#"> Liên Hệ </a></li>
+            </ul>
+         </div>
+    </div>
+    
+
+       
+    <div class="slideshow-container">
+            
+        <div class="mySlides">
+        <img src="https://cdn5.f-cdn.com/contestentries/1094254/22894184/5980b5719a961_thumb900.jpg" style="width:100%; height: 290px; border: 2px solid black; border-radius: 5px;">
+        
+        </div>
+    
+        <div class="mySlides">
+        <img src="https://i.pinimg.com/originals/4b/0e/ca/4b0ecaa2736fde235eec6e59543d5339.png" style="width:100%; height: 290px;border: 2px solid black; border-radius: 5px;">
+        
+        </div>
+    
+        <div class="mySlides">
+        <img src="https://pastimespetstores.com/wp-content/uploads/petstore-banner-01.jpg" style="width:100%; height: 290px;border: 2px solid black; border-radius: 5px;">
+        
+        </div>
+
+        <div class="mySlides">
+            <img src="https://previews.123rf.com/images/ileezhun/ileezhun1405/ileezhun140500001/28042633-pet-store-banner.jpg" style="width:100%; height: 290px;border: 2px solid black; border-radius: 5px;">
+            
+            </div>
+    
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    
+        <div class="searh_form">
+                <button class="search"><img src="Images/search-256x256.png" width="15" height="15"></button>
+                <input class="timkiem" tobidex="1" placeholder="Tìm kiếm">
+        </div>
+</div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+    <div class="BGR_Top"></div>
+    <div class="container">   
+    <div class="main">
+        <div class="aside">
+            <p id="txt_top">Danh Sách Cho Bạn</p>
+
+            <div class="aside_top">
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="data:image/jpeg;base64,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" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAtuR8iGebnw60kbUVTd5Aty0pXsk7M_LRlQ&usqp=CAU" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://ilovehdwallpapers.com/thumbs/dark-black-cat-t2.jpg" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_9aKG8TgOLzwHpNQuMYHRRTfKYRIvu5ebbQ&usqp=CAU" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+            </div>
+
+            <div class="aside_mid">
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0jQtQdynf0Posait3-hNpQ6RcvQ3UoIpptQ&usqp=CAU" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://data.1freewallpapers.com/download/white-baby-cat.jpg" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://lh3.googleusercontent.com/proxy/LdmAeLQAKIaRy2dSQTVDLn4yzRWwvNfHKxh9iqcu8FQhVRM13mtHITNsQrpgX1nTNrZ2wQor9VzGMk-X1anCYKrzcx2-sU8Nv0Si2dpJB6xCOH_uUOan2j97X0KzseTkTvlSrN7qrV72pmy_HBwT" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://img2.goodfon.com/wallpaper/nbig/c/68/koshka-seraya-britanskaya-glaza.jpg" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+            </div>
+
+            <div class="aside_btom">
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://lh3.googleusercontent.com/proxy/0_ZRnHqdmdZlM7vlF3pMbp2uRqqvTSz-kcjpN9LCpqGmGW6b7D5UxBDskvG4fYGoE_S9FjH8FqPYS1gjGT4RfAiz3RAfIdeQD9yO0dT7b5-0VAWfdNd77ukkyEitawtwY4qwnpPE96aclWddj6TjENGuf1bTZ69tKBXPIuOEZdG6WO85Qt4w334fyb3aqFU" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://lh3.googleusercontent.com/proxy/UbxmVPqLxCb7QBRxaMsCEa20OLLGxb6CX66oLZhechy0W5l05j-0F6Tugg7fGUPtOpBNZMAOpSkbxxBjPkT62oRZhC6opU8kQtW4qf56ToZCWmFxGzEq" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://lh3.googleusercontent.com/proxy/6v-w4yEt_7eDrLYGQbNygpkajBYkPR2ZJtWXYu33-bME7JAeu4xnfEPpc5IBrKm5hJ2ga3dkhwRsuK4bOGj2hNSFWfjh1I8Dq9LwfqOiSXAEUBHFZXIiSNlALsk82T6pvFwbJTDroPUg4un7qD-0xrChaqvjQnxQA_6l6a8pFhfluJxcZ3TyGy4B0cEht3FV-k2qhKgq2W94y7MfUpqhEw96vqQeQc3ISZI" style="border:  1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+                <div class="pet">
+                    <div class="prod">
+                        <img class="image_Btom" src="https://lh3.googleusercontent.com/proxy/VWUF-ajsF83XggSc8Ebo5w0b0aGuWtI90yrSyU8TkZDL3d-yQLy9vb6lrVywQYY2VBxOs9EiQEccipKmoT2fP0OkllWxN5EKK5hno4IC958H1xu_V3Jb2yFoHWgJNWpUXpINKKcz2uztFDdZGPUQBSv1va2UkrcjAcHZ8WHr" style="border: 1px solid black;" />
+                        <div class="name">JEAN de France</div> 
+                        <div class="price">$ 100</div> 
+                        <div class="icons">
+                        <img src="Images/heart.PNG" width="20" height="20"/>
+                        <img src="Images/letter.PNG" width="20" height="20"/>
+                        <img src="Images/giohang.PNG" width="20" height="20"/>
+                        </div> <img class="new-icon" src="Images/newgif.gif" />
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+       
+    </div>  
+
+    <div class="sidebar">
+        <h2 style="margin: 5px;">Sản Phẩm Khác</h2>
+        <ul class="vmenu">
+            <li><a href="form_con1.html">Chó</a></li>
+            <li><a href="form_con2.html">Mèo</a></li>
+            <li><a href="form_con3.html">Hamster</a></li>
+            <li><a href="form_con4.html">Thằng Lằn</a></li>
+            <li><a href="form_con7.html">Thỏ</a></li>
+        </ul>
+        <h2 style="margin: 5px;">Dich Vụ</h2>
+        <ul class="vmenu">
+            <li><a href="form_con5.html">Spa Thú Cưng</a></li>
+            <li><a href="form_con6.html">Khu Vui Chơi Thú Cưng</a></li>
+            <li><a href="form_con8.html">Đồ Chơi Thú Cưng</a></li>
+           
+        </ul>
+    </div>
+
+    <div class="sidebar2">
+       <img src="Images/meomeo.gif" alt="meo dj" style="width: 100%; height: 100%;">
+    </div>
+</div> 
+<div class="BGR_Btom"></div>
+<div class="footer">
+    <div id="ft_list">
+        <p>Liên Lạc</p> 
+            <em> <img class="icon" src="Images/ic_hotline.png" alt="">  <strong>Hottline:</strong>0909909009</em><br>
+            <em> <img class="icon" src="Images/ic_gmail.png" alt=""> <strong>Gmail:  </strong>Petshop@gmail.com</em><br>
+            <em> <img class="icon" src="Images/ic_face.png" alt=""> <strong>FB:</strong><a href="index.html">LanDauToiBietEm</a></em>
+
+    </div>
+    <div id="ft_list">
+        <p>Chi Nhánh</p>
+            <em style="margin-top: 30px;"> <img class="icon" src="Images/ic_map.png" alt="">  <strong>Bùi Minh Trực,P.6, Q.8, TP.HCM</strong> </em><br>
+            <em style="margin-top: 30px;"> <img class="icon" src="Images/ic_map.png" alt=""> <strong>Bùi Minh Trực,P.6, Q.8, TP.HCM</strong> </em><br>
+            <em style="margin-top: 30px;"   > <img class="icon" src="Images/ic_map.png" alt=""> <strong>Bùi Minh Trực,P.6, Q.8, TP.HCM</strong> </em>
+    </div>
+    <div id="ft_list">
+        <p>Hỗ Trợ Khách Hàng</p>
+
+            <em style="margin-top: 30px;"> <strong>o</strong> Chính sánh BẢo Mật</em><br>
+            <em><strong>o</strong>  Hướng Dẫn Mua Hàng</em><br>
+            <em> <strong>o</strong> Điều Khoản Điều Kiện</em>
+            <em> <strong>o</strong> Điều Khoản Điều Kiện</em>
+           
+    </div>
+  
+</div>
+<script src="JavaScript/index.js"></script>
+<script src="https://uhchat.net/code.php?f=6e1041"></script></body>
+</html> 
